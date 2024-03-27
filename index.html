@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Coda Caption:800"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="/style.css" type="text/css" />
+        <title>Petі</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="left-part">
+                <div>
+                    <img src="/images/favicon.png" alt="favicon" />
+                </div>
+                <span>Pet Home</span>
+            </div>
+            <div class="right-part">
+                <ul>
+                    <li class="active">Головна</li>
+                    <li>Донат</li>
+                    <li class="btnClass">Прихистити</li>
+                    <li onclick="myFunction()" class="dropbtn">
+                        <img
+                            style="width: 1.25em"
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/burger.svg"
+                        />
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Продукти</a>
+                            <a href="#">Прогулянки</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- main part -->
+        <main>
+            <!-- head -->
+            <div class="head-section">
+                <div class="images">
+                    <div class="img">
+                        <img src="./images/orange_dog.png" alt="Orange Dog" />
+                    </div>
+                    <div class="img">
+                        <img src="./images/black_dog.png" alt="Black Dog" />
+                    </div>
+                    <div class="img">
+                        <img src="./images/orange_bone.png" alt="Orange Bone" />
+                    </div>
+                    <div class="img">
+                        <img src="./images/black_paw.png" alt="Black Paw" />
+                    </div>
+                </div>
+                <div class="head-text">
+                    <span>PET HOME</span> не лише забезпечує тимчасовий притулок
+                    та догляд для бездомних тварин, але й активно працює над їх
+                    прилаштуванням у нові сім'ї. Волонтери та співробітники
+                    притулку здійснюють процес адаптації, допомагаючи знаходити
+                    кожній тварині нового вірного друга та домівку. Вони
+                    проводять спеціальні програми адаптації, організовують
+                    зустрічі між тваринами та потенційними власниками, а також
+                    надають підтримку та консультації на кожному етапі процесу.
+                </div>
+            </div>
+
+            <!-- donate section -->
+            <div class="donate-section">
+                <h2>ДОНАТ</h2>
+                <div class="do-donate">
+                    <div class="donate-boxes">
+                        <div class="price">100 ГРН</div>
+                        <div class="payBtn">
+                            <img src="/images/apple.png" alt="" />
+                            <span>Pay</span>
+                        </div>
+                        <div class="payBtn">
+                            <img src="/images/google.png" alt="" />
+                            <span>Pay</span>
+                        </div>
+                    </div>
+                    <div class="donate-boxes">
+                        <div class="price">500 ГРН</div>
+                        <div class="payBtn">
+                            <img src="/images/apple.png" alt="" />
+                            <span>Pay</span>
+                        </div>
+                        <div class="payBtn">
+                            <img src="/images/google.png" alt="" />
+                            <span>Pay</span>
+                        </div>
+                    </div>
+                    <div class="donate-boxes">
+                        <div class="price">1000 ГРН</div>
+                        <div class="payBtn">
+                            <img src="/images/apple.png" alt="" />
+                            <span>Pay</span>
+                        </div>
+                        <div class="payBtn">
+                            <img src="/images/google.png" alt="" />
+                            <span>Pay</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="forBtn">
+                    <button type="button">Свій донат</button>
+                </div>
+            </div>
+
+            <!-- shelter section -->
+            <div class="shelter-section">
+                    <h2>ПРИХИСТИТИ</h2>
+                <div class="dog">
+                    <div class="text">
+                        Стань новою сім’єю для безпритульної собаки!
+                    </div>
+                    <div class="dog-image">
+                        <img src="./images/tosia_dog.png" alt="Tosia" />
+                        <div class="dog-desc">
+                            <ul>
+                                <li>Кличка: Тося</li>
+                                <li>Стать: дівчинка</li>
+                                <li>Вік: 1.5 років</li>
+                                <li>Місто вилову: м. Торське</li>
+                                <li>Донецька обл.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dog">
+                    <div class="dog-image">
+                        <img src="./images/mina_dog.png" alt="Tosia" />
+                        <div class="dog-desc">
+                            <ul>
+                                <li>Кличка: Міна</li>
+                                <li>Стать: дівчинка</li>
+                                <li>Вік: 1.7 років</li>
+                                <li>Місто вилову: м. Лиман,</li>
+                                <li>Донецька обл.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text">
+                        Можливо, я не така гарна як породисті собаки, та я теж
+                        вмію любити!
+                    </div>
+                </div>
+            </div>
+
+            <!-- consultation section  -->
+            <div class="consultation-section">
+                <div class="nap"></div>
+                <div class="inputs">
+                    <input type="text" placeholder="Номер телефону" />
+                    <br />
+                    <div class="consultation-btn">ОТРИМАТИ КОНСУЛЬТАЦІЮ</div>
+                </div>
+            </div>
+
+            <!-- video section -->
+            <div class="video-section">
+                <iframe
+                    src="https://www.youtube.com/embed/jgZXT19l8II?si=Eobsru2ftGiV6EcO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </main>
+
+        <!-- footer section -->
+        <footer>
+            <div class="foot-main">
+                <div class="pet-home">
+                    <div class="footer-image">
+                        <img src="/images/favicon.png" alt="Favicon" />
+                    </div>
+                    <div class="main-text">PET<br />HOME</div>
+                </div>
+                <div class="help">
+                    <h4>ДОПОМОГА ТВАРИНАМ</h4>
+                    <ul>
+                        <li>допомога тяжкохворим тваринам</li>
+                        <li>разова допомога тваринам</li>
+                        <li>опіка тварин на відстані</li>
+                        <li>опіка притулків</li>
+                    </ul>
+                </div>
+                <div class="adoption">
+                    <h4>АДОПЦІЯ ТВАРИН</h4>
+                    <ul>
+                        <li>взяти тварину</li>
+                        <li>прилаштувати тварину</li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <h4>КОНТАКТИ</h4>
+                    <ul>
+                        <li>+380962963248</li>
+                        <li>pet.home@pet.ua</li>
+                    </ul>
+                    <img src="/images/inst_icon.png" alt="Instagram" />
+                    <img src="/images/facebook_icon.png" alt="Facebook" />
+                    <img src="/images/telegram_icon.png" alt="Telegram" />
+                    <img src="/images/twitter_icon.png" alt="Twitter" />
+                </div>
+            </div>
+            <div class="other-links">
+                <ul>
+                    <li>НОВИНИ</li>
+                    <li>ПАРТНЕРИ</li>
+                    <li>ПРИТУЛКИ І ВОЛОНТЕРИ</li>
+                </ul>
+            </div>
+        </footer>
+        <div class="rights">
+            Copyright © 2024 | Sylvan Schumm | All Rights Reserved.
+        </div>
+        <script src="/index.js"></script>
+    </body>
+</html>
